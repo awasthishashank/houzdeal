@@ -1,0 +1,30 @@
+.inner-container{
+    gap: 2rem;
+    background: linear-gradient(97.51deg, #450487 -9.35%, #FFA774 117.07%);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 35vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.inner-container .getstarted{
+    color: white;
+    font-weight: 600;
+    font-family:'Mulish';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+.inner-container .secondaryTextr{
+    color: white
+
+
+}
+.inner-container .button{
+    background-color:rgba(44, 47, 108, 1);
+    border: 2px solid rgba(44, 47, 108, 1);
+    border-radius: 10px;
+
+}

@@ -1,0 +1,31 @@
+.f-container{
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 25vhvh;
+    background: rgba(10, 12, 46, 1);
+}
+.f-left{
+    gap: 1rem;
+    margin-left: 1%;
+}
+.f-right{
+    margin-right: 1%;
+}
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+@media(max-width:768px){
+    .f-container{
+        justify-content: center;
+        border: 2px solid black;
+        min-height: 20vh;
+        background: rgba(10, 12, 46, 1);
+    }
+    .f-container>div{
+        align-items: center;
+        text-align: center;
+    }
+}

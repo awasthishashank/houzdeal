@@ -1,0 +1,313 @@
+.Property_info{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.interior-img{
+  padding: 0px;
+  background-color: white;
+}
+
+.overview{
+ background-color: white;
+ padding: 10px;
+ padding-bottom: 0px;
+
+}
+.overview h5{
+  font-family: 'roboto';
+  color:rgba(117, 117, 117, 1);
+  font-size: 16px;
+}
+.Aboutproject{
+    padding: 10px;
+    background-color: white;
+
+}
+.Floorcontainer{
+    min-height:fit-content;
+    width: fit-content;
+    border-radius: 50px;
+    box-shadow: none;
+    background: #d2acdf;
+    margin-bottom: 20px;
+    padding:2px 16px 2px 16px ;
+    
+}
+.THREEBHK{
+  margin: 4px 8px 4px 8px;
+    padding:8px 12px 8px 18px ;
+    color: white;
+    background: linear-gradient(97.51deg, #450487 -9.35%, #FFA774 117.07%);
+    border-radius: 20px;
+    line-height: 20px;
+    font-family: Roboto;
+     font-style: Medium;
+    font-size: 15px;
+    text-align: center;
+    border-style: none;
+  }
+  .TWOBHK{
+    margin: 8px;
+    padding:8px;
+    color:#2C2F6C;
+    line-height: 20px;
+    font-family: Roboto;
+     font-style: Medium;
+    font-size: 15px;
+    text-align: center;
+    border-style: none;
+    background: #d2acdf;
+  }
+  .ONEBHK{
+    margin: 8px;
+    padding:8px;
+    color:#2C2F6C;
+    line-height: 20px;
+    font-family: Roboto;
+     font-style: Medium;
+    font-size: 15px;
+    text-align: center;
+    border-style: none;
+    background: #d2acdf;
+
+  }
+  .floor-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+  }
+  .FloorPlan{
+    background-color: white;
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .Floorcontainer {
+      display: none
+  
+    }.fphr{
+      display: none;
+    }}
+  .img-floor{
+    height: 80vh;
+    width: 50vw;
+  
+  }
+  .row>*{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .Aboutdeveloper {
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 40px;
+
+  }
+  .sub-details {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-bottom: 40px;
+   
+  }
+  
+  .sd {
+    display: flex;
+    width: 100%;
+  }
+  
+  .column {
+    flex-basis: 20%; /* 5 columns (20% each) */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Media Query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .column {
+      flex-basis: 50%; /* 2 columns (50% each) */
+    }
+  }
+
+  .subdetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-top: 40px;
+    height: 61px;
+   width: 1050px;
+  }
+  @media (max-width: 600px) {
+    .subdetail {
+      display: block;
+      width: 100%;
+      text-align: center;
+      box-sizing: border-box;
+      height: auto;
+  
+    }}
+
+.sds{
+display: flex;
+flex-direction: column;
+justify-content:center ;
+text-align: center;
+
+}
+.sds>h4{
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.4px;
+}
+.sds>p{
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.4px;
+}
+.pagelink{
+  height: 35px;
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+.pglinks{
+  font-family: 'roboto';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22.4;
+
+}
+.pglinks>a{
+  color:rgba(117, 117, 117, 1);
+  text-decoration: none;
+}
+.pglinks>a:hover{
+  color: rgba(44, 47, 108, 1);
+
+  text-decoration: underline;
+
+}
+
+@media (max-width: 600px) {
+  .pagelink {
+    display: block;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: auto;
+  }
+.pglinks{
+  margin-bottom: 10px;
+
+}}
+.ovrow{
+  display: flex;
+flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ padding-bottom: 10px;
+  
+}
+.ovcol{
+  width: 186px;
+
+}
+@media (max-width: 600px) {
+  .ovrow {
+    display: block;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: auto;
+}
+.ovcol{
+  width: auto;
+}}
+.brochure-img{
+  height: auto;
+  display: flex;
+  width: 100%;
+ 
+  position: relative;
+  display: inline-block;
+}
+.brochure-img>img{
+  padding: 12px 2px 8px 1px;
+  max-width: 100%;
+  height: auto;
+
+
+}
+.b-button {
+  font-family: roboto;
+  font-size: 500;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  color: #450487;
+  border-radius: 8px;
+  padding:8px 12px 8px 12px;
+}
+@media screen and (max-width: 600px) {
+  .b-button {
+
+    align-items: center;
+    justify-content: center;
+  
+
+  }
+}
+
+@media (max-width: 600px) {
+  .brochure-img{
+    display: block;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  
+}.brochure-img>img{
+  display: block;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  height: auto;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  align-items: center;
+  justify-content: center;
+
+}}
+@media screen and (max-width: 600px) {
+  .col-8 {
+   width: 100%;
+  
+  }
+  .threeimage{
+    width: 66%;
+  }
+  .twoimage{
+    width: 33%;
+  }
+}
+
+

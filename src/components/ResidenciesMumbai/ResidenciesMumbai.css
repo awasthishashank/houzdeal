@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.headingmumbai>center>h2{
+  margin-top: 90px;
+  color:  rgba(44, 47, 108, 1);
+  font-weight: 800;
+  line-height: 35px;
+  font-size: 28px;
+}
+.mcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+
+}
+.mumbaicontainer{
+  min-height:fit-content;
+  width: fit-content;
+  border-radius: 25px;
+  box-shadow: none;
+  background: #d2acdf;
+  margin-bottom: 75px;
+}
+
+.Flats{
+
+  padding: 8px 16px 8px 16px;
+  color: white;
+  background: linear-gradient(97.51deg, #450487 -9.35%, #FFA774 117.07%);
+  border-radius: 20px;
+  line-height: 23px;
+  font-family: Roboto;
+   font-style: Medium;
+  font-size: 20px;
+  text-align: center;
+}
+.Villas{
+  margin: 8px;
+  padding:8px;
+  color:#2C2F6C;
+  background: #d2acdf;
+ 
+  border-radius: 20px;
+  line-height: 23px;
+  font-family: Roboto;
+   font-style: Medium;
+  font-size: 20px;
+  text-align: center;
+}
+.Commercial{
+  margin: 8px;
+  padding:8px;
+  color:#2C2F6C;
+  border-radius: 20px;
+  line-height: 23px;
+  font-family: Roboto;
+   font-style: Medium;
+  font-size: 20px;
+  text-align: center;
+  background: #d2acdf;
+
+}
+
+/* Float four columns side by side */
+.columnm {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowm {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.rowm:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columnm {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Style the counter cards */
+.cardm {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align:left;
+  background:white;
+  border-radius: 20px;
+  padding-bottom: 1px;
+
+}
+.cardm > p{
+  margin-left: 10px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+.cardm> h4{
+  margin-left: 10px;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+ 
+
+}
+.propm-img{
+  height: 170px;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
